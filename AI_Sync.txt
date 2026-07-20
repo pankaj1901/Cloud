@@ -1,0 +1,5 @@
+I would like to request a session of up to one hour. Could you prepare material comparing our current Azure Backup Vaults with immutability enabled against Rubrik UCL?
+
+I am also interested in understanding how the projected 50% cost savings can be achieved, so please cover this during the session.
+
+While every product has its strengths, I assume there may be certain limitations or challenges with the Rubrik UCL solution. Please share these as well during the discussion.
