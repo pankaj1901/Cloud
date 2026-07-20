@@ -1,5 +1,3 @@
-I would like to request a session of up to one hour. Could you prepare material comparing our current Azure Backup Vaults with immutability enabled against Rubrik UCL?
-
-I am also interested in understanding how the projected 50% cost savings can be achieved, so please cover this during the session.
-
-While every product has its strengths, I assume there may be certain limitations or challenges with the Rubrik UCL solution. Please share these as well during the discussion.
+I desire to create admin account in 1 Forest domain and then permission same ID to be added as member of global group and then assign the same group to other child domains and separate forest to allow RDP and domain admin access.
+create re-requisite,implementation and verification checklist.
+also build a system architecture diagram reflecting the above solution
