@@ -1,3 +1,12 @@
-I desire to create admin account in 1 Forest domain and then permission same ID to be added as member of global group and then assign the same group to other child domains and separate forest to allow RDP and domain admin access.
-create re-requisite,implementation and verification checklist.
-also build a system architecture diagram reflecting the above solution
+SMBC virtualization strategy
+current products in use with each supported apac branch usage details
+exiting VM workload for each supported apac branch
+licensing cost for each product for supported apac branch
+existing HW, SW version details with EOS\EOL timeline
+minimum virtualization capabilities required
+do assessment with other virtualization platforms available
+include pro and cons, with cost, migration impact and effort
+provide final infra architect view for next 3-5 year vision 
+include transition to azure cloud as migration strategy from on-prem hypervisor dependancy.
+also build conditions for cloud migration and stay on-prem.
+give opinion if we must choose microsoft hyper\azure hci stack to make it future proof.
