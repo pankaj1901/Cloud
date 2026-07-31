@@ -10,3 +10,17 @@ provide final infra architect view for next 3-5 year vision
 include transition to azure cloud as migration strategy from on-prem hypervisor dependancy.
 also build conditions for cloud migration and stay on-prem.
 give opinion if we must choose microsoft hyper\azure hci stack to make it future proof.
+
+
+Create a wide landscape enterprise architecture diagram titled “FCSS Architecture Diagram”. Show FCSS Head Office connected via orange solid MPLS Link to GIFT Server Room. In GIFT Server Room show vertical flow: * Edge Router, * WAN Switch, * Firewall, Existing Core Switch. Existing Core Switch connects to RWAN cloud using blue dashed RWAN link. From RWAN show two separate blue dashed links to SGDC Production and SGDR (OCC).
+
+SGDC Production box: label “APAC Colo - Nutanix Cluster” and “Production Network Zone”. Show 2 Web Serverss, 2 PostgreSQL DB Serverss, 2 IBM MQ Servers, and 2 Convertor Servers hosted on Nutanix Cluster as Virtual machines. Include SolarWinds Monitoring, Rubrik Backup, and Domain Authentication / Active Directory service boxes for SGDC Production Servers.
+
+SGDR (OCC) box: label “APAC Colo - Nutanix Cluster”. Inside show two zones: “DR (Production) Network Zone” and “UAT Network Zone”. Each zone has 2 Web Servers, 2 PostgreSQL DB Servers, 2 IBM MQ Servers, and 2 Convertor Servers hosted on same and one Nutanix Cluster.
+Combine both DR and UAT into same Nutanix cluster as Virtual machines.
+Include SolarWinds Monitoring, Rubrik Backup, and Domain Authentication / Active Directory service boxes for SGDR DR Production Servers.
+
+Show blue dotted PostgreSQL Database Replication from SGDC Production DB Servers to SGDR DR Production DB Servers. Show purple dotted IBM MQ Native Replication from SGDC Production MQ Servers to SGDR DR Production MQ Servers. Include a clear legend for MPLS, RWAN, PostgreSQL replication, IBM MQ replication, Nutanix, SolarWinds, Rubrik, and Active Directory. Do not use “Client Site” or “2 Nos.”. Use clean banking-grade architecture diagram style with readable labels and no clutter.
+remove background color to white
+put SGDR (OCC) label into blue both with white text same blue and white design as SGDC (Production)
+do the same for "legend" and "Notes"
